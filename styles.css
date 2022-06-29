@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   background-image: url(./images/sky3.jpg);
+}
+
+.title {
+    color: #F1C40F;
+    font-size: 60px;
+    position: relative;
+    top: 100px;
+    left: 300px;
+}
+
+.grass {
+    background-color:#1E8449;
+    position: fixed;
+    bottom: 0px;
+    height: 20%;
+    width: 100%;
+}
+
+.img__sheep {
+    position: absolute;
+    width: 10%;
+    left: 300px;
+    bottom: 110px;
+}
+
+.img__tree {
+    position: absolute;
+    width: 20%;
+    right: 200px;
+    bottom: 50px;
+}
+
+.img__sun {
+    position: absolute;
+    width: 10%;
+    top: 80px;
+    right: 150px;
+}
